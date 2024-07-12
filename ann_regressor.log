@@ -1,0 +1,157 @@
+2024-07-11 11:10:35,207 - ERROR - Error getting model summary: Model is not built yet. Build the model first.
+2024-07-11 11:12:19,235 - INFO - Model built successfully.
+2024-07-11 11:20:43,880 - INFO - Model built successfully.
+2024-07-11 11:20:49,127 - INFO - Model trained successfully.
+2024-07-11 11:22:13,702 - INFO - Model built successfully.
+2024-07-11 11:22:16,525 - INFO - Model trained successfully.
+2024-07-11 11:22:16,705 - INFO - Model evaluated successfully.
+2024-07-11 11:27:46,861 - INFO - Model built successfully.
+2024-07-11 11:27:49,853 - INFO - Model trained successfully.
+2024-07-11 11:27:50,042 - INFO - Model evaluated successfully.
+2024-07-11 11:27:50,127 - INFO - Prediction made successfully.
+2024-07-11 11:27:55,283 - WARNING - 5 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001E069450C10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:27:57,653 - WARNING - 6 out of the last 8 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001E06A6DA1F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:29:02,345 - INFO - Hyperparameter tuning completed successfully.
+2024-07-11 11:29:02,346 - ERROR - Error plotting loss history: 'ANNRegressor' object has no attribute 'history'
+2024-07-11 11:31:09,465 - INFO - Model built successfully.
+2024-07-11 11:31:12,564 - INFO - Model trained successfully.
+2024-07-11 11:31:12,743 - INFO - Model evaluated successfully.
+2024-07-11 11:31:12,829 - INFO - Prediction made successfully.
+2024-07-11 11:31:17,434 - WARNING - 5 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019CBE32FC10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:31:19,648 - WARNING - 6 out of the last 8 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019CBF557040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:32:29,786 - INFO - Hyperparameter tuning completed successfully.
+2024-07-11 11:32:31,384 - ERROR - Error plotting loss history: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2024-07-11 11:35:16,435 - INFO - Model built successfully.
+2024-07-11 11:35:19,564 - INFO - Model trained successfully.
+2024-07-11 11:35:19,714 - INFO - Model evaluated successfully.
+2024-07-11 11:35:19,813 - INFO - Prediction made successfully.
+2024-07-11 11:35:24,793 - WARNING - 5 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002658BA41C10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:35:27,232 - WARNING - 6 out of the last 8 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002658CCBE040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-11 11:36:38,316 - INFO - Hyperparameter tuning completed successfully.
+2024-07-11 11:36:42,845 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 11:41:56,052 - INFO - Model built successfully.
+2024-07-11 11:41:58,680 - INFO - Model trained successfully.
+2024-07-11 11:41:58,820 - INFO - Model evaluated successfully.
+2024-07-11 11:41:58,908 - INFO - Prediction made successfully.
+2024-07-11 11:41:58,910 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:44:21,669 - INFO - Model built successfully.
+2024-07-11 11:44:24,183 - INFO - Model trained successfully.
+2024-07-11 11:44:24,312 - INFO - Model evaluated successfully.
+2024-07-11 11:44:24,411 - INFO - Prediction made successfully.
+2024-07-11 11:44:28,648 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 11:45:07,982 - INFO - Model built successfully.
+2024-07-11 11:45:10,551 - INFO - Model trained successfully.
+2024-07-11 11:45:10,686 - INFO - Model evaluated successfully.
+2024-07-11 11:45:10,781 - INFO - Prediction made successfully.
+2024-07-11 11:45:10,783 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:45:24,002 - INFO - Model built successfully.
+2024-07-11 11:45:26,541 - INFO - Model trained successfully.
+2024-07-11 11:45:26,680 - INFO - Model evaluated successfully.
+2024-07-11 11:45:26,767 - INFO - Prediction made successfully.
+2024-07-11 11:45:26,769 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:49:16,181 - INFO - Model built successfully.
+2024-07-11 11:49:18,772 - INFO - Model trained successfully.
+2024-07-11 11:49:18,900 - INFO - Model evaluated successfully.
+2024-07-11 11:49:18,993 - INFO - Prediction made successfully.
+2024-07-11 11:49:18,994 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:51:13,688 - INFO - Model built successfully.
+2024-07-11 11:51:16,285 - INFO - Model trained successfully.
+2024-07-11 11:51:16,429 - INFO - Model evaluated successfully.
+2024-07-11 11:51:16,534 - INFO - Prediction made successfully.
+2024-07-11 11:51:16,536 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:51:35,819 - INFO - Model built successfully.
+2024-07-11 11:51:38,421 - INFO - Model trained successfully.
+2024-07-11 11:51:38,565 - INFO - Model evaluated successfully.
+2024-07-11 11:51:38,653 - INFO - Prediction made successfully.
+2024-07-11 11:51:38,655 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:51:53,807 - INFO - Model built successfully.
+2024-07-11 11:51:56,462 - INFO - Model trained successfully.
+2024-07-11 11:51:56,602 - INFO - Model evaluated successfully.
+2024-07-11 11:51:56,690 - INFO - Prediction made successfully.
+2024-07-11 11:51:56,692 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:54:20,143 - INFO - Model built successfully.
+2024-07-11 11:54:22,756 - INFO - Model trained successfully.
+2024-07-11 11:54:22,911 - INFO - Model evaluated successfully.
+2024-07-11 11:54:23,000 - INFO - Prediction made successfully.
+2024-07-11 11:54:23,002 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:57:10,705 - INFO - Model built successfully.
+2024-07-11 11:57:13,323 - INFO - Model trained successfully.
+2024-07-11 11:57:13,479 - INFO - Model evaluated successfully.
+2024-07-11 11:57:13,571 - INFO - Prediction made successfully.
+2024-07-11 11:57:13,729 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 11:57:33,847 - INFO - Model built successfully.
+2024-07-11 11:57:36,518 - INFO - Model trained successfully.
+2024-07-11 11:57:36,668 - INFO - Model evaluated successfully.
+2024-07-11 11:57:36,758 - INFO - Prediction made successfully.
+2024-07-11 11:57:41,116 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 11:58:10,208 - INFO - Model built successfully.
+2024-07-11 11:58:13,082 - INFO - Model trained successfully.
+2024-07-11 11:58:13,381 - INFO - Model evaluated successfully.
+2024-07-11 11:58:13,593 - INFO - Prediction made successfully.
+2024-07-11 11:58:18,070 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 11:58:48,391 - INFO - Model built successfully.
+2024-07-11 11:58:51,203 - INFO - Model trained successfully.
+2024-07-11 11:58:51,364 - INFO - Model evaluated successfully.
+2024-07-11 11:58:51,468 - INFO - Prediction made successfully.
+2024-07-11 11:58:55,733 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 12:08:54,861 - INFO - Model built successfully.
+2024-07-11 12:08:59,502 - INFO - Model trained successfully.
+2024-07-11 12:08:59,738 - INFO - Model evaluated successfully.
+2024-07-11 12:08:59,854 - INFO - Prediction made successfully.
+2024-07-11 12:09:00,178 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 12:10:19,904 - INFO - Model built successfully.
+2024-07-11 12:10:23,147 - INFO - Model trained successfully.
+2024-07-11 12:10:23,307 - INFO - Model evaluated successfully.
+2024-07-11 12:10:23,409 - INFO - Prediction made successfully.
+2024-07-11 12:10:23,645 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 12:11:01,406 - INFO - Model built successfully.
+2024-07-11 12:11:04,252 - INFO - Model trained successfully.
+2024-07-11 12:11:04,401 - INFO - Model evaluated successfully.
+2024-07-11 12:11:04,501 - INFO - Prediction made successfully.
+2024-07-11 12:11:04,676 - ERROR - Error during hyperparameter tuning: 'function' object has no attribute 'set_params'
+2024-07-11 12:13:58,413 - INFO - Model built successfully.
+2024-07-11 12:14:02,685 - INFO - Model trained successfully.
+2024-07-11 12:14:02,889 - INFO - Model evaluated successfully.
+2024-07-11 12:14:03,017 - INFO - Prediction made successfully.
+2024-07-11 12:20:01,643 - INFO - Model built successfully.
+2024-07-11 12:20:07,048 - INFO - Model trained successfully.
+2024-07-11 12:20:07,283 - INFO - Model evaluated successfully.
+2024-07-11 12:20:07,433 - INFO - Prediction made successfully.
+2024-07-11 12:20:48,766 - INFO - Model built successfully.
+2024-07-11 12:20:52,894 - INFO - Model trained successfully.
+2024-07-11 12:20:53,145 - INFO - Model evaluated successfully.
+2024-07-11 12:20:53,317 - INFO - Prediction made successfully.
+2024-07-11 12:20:53,636 - ERROR - Error during hyperparameter tuning: Invalid parameter hidden_layers for estimator KerasRegressor.
+This issue can likely be resolved by setting this parameter in the KerasRegressor constructor:
+`KerasRegressor(hidden_layers=[64, 64])`
+Check the list of available parameters with `estimator.get_params().keys()`
+2024-07-11 12:27:24,368 - INFO - Model built successfully.
+2024-07-11 12:27:28,240 - INFO - Model trained successfully.
+2024-07-11 12:27:28,472 - INFO - Model evaluated successfully.
+2024-07-11 12:27:28,614 - INFO - Prediction made successfully.
+2024-07-11 12:27:28,920 - ERROR - Error during hyperparameter tuning: Invalid parameter learning_rate for estimator KerasRegressor.
+This issue can likely be resolved by setting this parameter in the KerasRegressor constructor:
+`KerasRegressor(learning_rate=0.001)`
+Check the list of available parameters with `estimator.get_params().keys()`
+2024-07-11 12:29:41,844 - INFO - Model built successfully.
+2024-07-11 12:29:45,678 - INFO - Model trained successfully.
+2024-07-11 12:29:45,907 - INFO - Model evaluated successfully.
+2024-07-11 12:29:46,037 - INFO - Prediction made successfully.
+2024-07-11 12:29:51,560 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-11 12:30:39,390 - INFO - Model built successfully.
+2024-07-11 12:30:43,309 - INFO - Model trained successfully.
+2024-07-11 12:30:43,535 - INFO - Model evaluated successfully.
+2024-07-11 12:30:43,677 - INFO - Prediction made successfully.
+2024-07-11 12:30:43,966 - ERROR - Error during hyperparameter tuning: Invalid parameter learning_rate for estimator KerasRegressor.
+This issue can likely be resolved by setting this parameter in the KerasRegressor constructor:
+`KerasRegressor(learning_rate=0.001)`
+Check the list of available parameters with `estimator.get_params().keys()`
+2024-07-11 12:31:57,668 - INFO - Model built successfully.
+2024-07-11 12:32:01,583 - INFO - Model trained successfully.
+2024-07-11 12:32:01,803 - INFO - Model evaluated successfully.
+2024-07-11 12:32:01,924 - INFO - Prediction made successfully.
+2024-07-11 12:32:06,953 - INFO - Loss history plot saved successfully as loss_history.png.
