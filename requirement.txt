@@ -1,4 +1,3 @@
-tensorflow
 pandas
 matplotlib
 plotly-express
@@ -13,3 +12,6 @@ ydata-profiling
 statsmodels
 scikeras
 kaleido
+tensorflow
+keras-tuner
+pdfkit

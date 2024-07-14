@@ -67,6 +67,7 @@ class ANNRegressor:
                 model.add(Dense(units, activation='relu'))
             model.add(Dense(self.output_dim, activation='linear'))
             model.compile(optimizer=Adam(learning_rate=learning_rate), loss='mean_squared_error')
+            #ann.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
             self.model = model
             logger.info("Model built successfully.")
         except Exception as e:

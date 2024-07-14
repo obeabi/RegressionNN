@@ -155,3 +155,311 @@ Check the list of available parameters with `estimator.get_params().keys()`
 2024-07-11 12:32:01,803 - INFO - Model evaluated successfully.
 2024-07-11 12:32:01,924 - INFO - Prediction made successfully.
 2024-07-11 12:32:06,953 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-13 19:06:59,569 - INFO - Model built successfully.
+2024-07-13 19:07:03,189 - INFO - Model trained successfully.
+2024-07-13 19:07:03,412 - INFO - Model evaluated successfully.
+2024-07-13 19:07:03,586 - INFO - Prediction made successfully.
+2024-07-13 19:07:10,931 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-13 19:07:10,931 - ERROR - Error while tuning parameters : If no scoring is specified, the estimator passed should have a 'score' method. The estimator <Sequential name=sequential, built=True> does not.
+2024-07-13 19:10:54,767 - INFO - Model built successfully.
+2024-07-13 19:10:59,775 - INFO - Model trained successfully.
+2024-07-13 19:11:00,025 - INFO - Model evaluated successfully.
+2024-07-13 19:11:00,250 - INFO - Prediction made successfully.
+2024-07-13 19:11:03,039 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-13 19:11:03,083 - INFO - Model built successfully.
+2024-07-13 19:11:03,083 - ERROR - Error while tuning parameters : The 'estimator' parameter of GridSearchCV must be an object implementing 'fit'. Got None instead.
+2024-07-13 19:28:08,681 - INFO - Model built successfully.
+2024-07-13 19:28:12,062 - INFO - Model trained successfully.
+2024-07-13 19:28:12,280 - INFO - Model evaluated successfully.
+2024-07-13 19:28:13,673 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 19:29:07,216 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 19:43:26,392 - ERROR - Error during hyperparameter tuning: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-07-13 19:43:45,877 - INFO - Model built successfully.
+2024-07-13 19:43:49,044 - INFO - Model trained successfully.
+2024-07-13 19:43:49,209 - INFO - Model evaluated successfully.
+2024-07-13 19:43:50,433 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 19:43:58,688 - ERROR - Error during hyperparameter tuning: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-07-13 19:47:21,566 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 19:47:21,881 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 19:54:34,336 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 19:54:34,651 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 19:54:34,673 - INFO - Model built successfully.
+2024-07-13 19:54:39,664 - INFO - Model evaluated successfully.
+2024-07-13 20:02:16,462 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:02:16,478 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:02:16,479 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:02:16,479 - INFO - Python backend loaded
+2024-07-13 20:03:25,507 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:03:25,523 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:03:25,525 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:03:25,525 - INFO - Python backend loaded
+2024-07-13 20:07:20,390 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:07:20,399 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:07:20,400 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:07:20,400 - INFO - Python backend loaded
+2024-07-13 20:07:21,113 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:07:21,146 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:07:21,154 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:07:21,155 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:12:29,294 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:12:29,302 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:12:29,303 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:12:29,303 - INFO - Python backend loaded
+2024-07-13 20:12:29,938 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:12:29,945 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:12:29,951 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:12:29,951 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:12:31,450 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:12:31,870 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:12:31,897 - INFO - Model built successfully.
+2024-07-13 20:13:11,132 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:13:11,141 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:13:11,142 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:13:11,142 - INFO - Python backend loaded
+2024-07-13 20:13:11,814 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:13:11,821 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:13:11,826 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:13:11,827 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:13:13,135 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:13:13,530 - ERROR - Error during hyperparameter tuning: A total of 1 objects could not be loaded. Example error message for object <Dense name=dense, built=True>:
+
+The shape of the target variable and the shape of the target value in `variable.assign(value)` must match. variable.shape=(7, 32), Received: value.shape=(10, 32). Target variable: <KerasVariable shape=(7, 32), dtype=float32, path=sequential/dense/kernel>
+
+List of objects that could not be loaded:
+[<Dense name=dense, built=True>]
+2024-07-13 20:16:35,621 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:16:35,631 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:16:35,631 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:16:35,632 - INFO - Python backend loaded
+2024-07-13 20:16:36,402 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:16:36,408 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:16:36,414 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:16:36,414 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:23:02,809 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:23:02,817 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:23:02,818 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:23:02,818 - INFO - Python backend loaded
+2024-07-13 20:23:03,503 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:23:03,511 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:23:03,515 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:23:03,515 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:23:03,587 - INFO - Model built successfully.
+2024-07-13 20:23:07,079 - INFO - Model trained successfully.
+2024-07-13 20:23:48,607 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:23:48,617 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:23:48,618 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:23:48,618 - INFO - Python backend loaded
+2024-07-13 20:23:49,300 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:23:49,308 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:23:49,314 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:23:49,314 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:23:50,647 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:23:51,046 - ERROR - Error during hyperparameter tuning: A total of 1 objects could not be loaded. Example error message for object <Dense name=dense, built=True>:
+
+The shape of the target variable and the shape of the target value in `variable.assign(value)` must match. variable.shape=(7, 32), Received: value.shape=(10, 32). Target variable: <KerasVariable shape=(7, 32), dtype=float32, path=sequential/dense/kernel>
+
+List of objects that could not be loaded:
+[<Dense name=dense, built=True>]
+2024-07-13 20:26:28,086 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:26:28,094 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:26:28,095 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:26:28,095 - INFO - Python backend loaded
+2024-07-13 20:26:28,749 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:26:28,756 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:26:28,761 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:26:28,762 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:26:30,585 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:27:33,432 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:29:00,781 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:29:00,790 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:29:00,791 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:29:00,791 - INFO - Python backend loaded
+2024-07-13 20:29:01,574 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:29:01,581 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:29:01,587 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:29:01,587 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:29:03,158 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:29:24,281 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:29:24,310 - INFO - Model built successfully.
+2024-07-13 20:29:29,966 - INFO - Model evaluated successfully.
+2024-07-13 20:33:55,852 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:33:55,861 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:33:55,861 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:33:55,861 - INFO - Python backend loaded
+2024-07-13 20:33:56,675 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:33:56,683 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:33:56,689 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:33:56,689 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:33:58,130 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:33:58,592 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:33:58,621 - INFO - Model built successfully.
+2024-07-13 20:34:04,232 - INFO - Model evaluated successfully.
+2024-07-13 20:34:04,244 - INFO - Model Summary successfully.
+2024-07-13 20:35:27,013 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:35:27,023 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:35:27,023 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:35:27,023 - INFO - Python backend loaded
+2024-07-13 20:35:27,807 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:35:27,814 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:35:27,822 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:35:27,822 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:35:29,129 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:35:29,542 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:35:29,564 - INFO - Model built successfully.
+2024-07-13 20:35:35,676 - INFO - Model evaluated successfully.
+2024-07-13 20:35:35,689 - INFO - Model Summary successfully.
+2024-07-13 20:39:25,338 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:39:25,348 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:39:25,349 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:39:25,349 - INFO - Python backend loaded
+2024-07-13 20:39:26,029 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:39:26,037 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:39:26,043 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:39:26,043 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:39:27,453 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:39:27,911 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:39:27,938 - INFO - Model built successfully.
+2024-07-13 20:39:33,653 - INFO - Model evaluated successfully.
+2024-07-13 20:39:33,662 - INFO - Model Summary successfully.
+2024-07-13 20:39:33,802 - INFO - Prediction made successfully.
+2024-07-13 20:40:29,693 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:40:29,702 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:40:29,703 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:40:29,703 - INFO - Python backend loaded
+2024-07-13 20:40:30,407 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:40:30,414 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:40:30,421 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:40:30,422 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:40:31,838 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:40:32,296 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:40:32,327 - INFO - Model built successfully.
+2024-07-13 20:40:38,756 - INFO - Model evaluated successfully.
+2024-07-13 20:40:38,767 - INFO - Model Summary successfully.
+2024-07-13 20:40:38,897 - INFO - Prediction made successfully.
+2024-07-13 20:41:00,135 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:41:00,144 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:41:00,145 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:41:00,145 - INFO - Python backend loaded
+2024-07-13 20:41:00,845 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:41:00,852 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:41:00,857 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:41:00,858 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:41:02,381 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:41:54,162 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:41:54,200 - INFO - Model built successfully.
+2024-07-13 20:42:01,651 - INFO - Model evaluated successfully.
+2024-07-13 20:42:01,660 - INFO - Model Summary successfully.
+2024-07-13 20:42:01,802 - INFO - Prediction made successfully.
+2024-07-13 20:45:07,954 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:45:07,962 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:45:07,963 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:45:07,963 - INFO - Python backend loaded
+2024-07-13 20:45:08,745 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:45:08,756 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:45:08,766 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:45:08,766 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:45:36,498 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:45:36,506 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:45:36,507 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:45:36,507 - INFO - Python backend loaded
+2024-07-13 20:45:37,194 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:45:37,201 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:45:37,208 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:45:37,208 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:45:38,808 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:45:39,243 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:45:39,270 - INFO - Model built successfully.
+2024-07-13 20:45:44,904 - INFO - Model evaluated successfully.
+2024-07-13 20:45:44,913 - INFO - Model Summary successfully.
+2024-07-13 20:45:45,092 - INFO - Prediction made successfully.
+2024-07-13 20:46:08,856 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:46:08,870 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:46:08,870 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:46:08,871 - INFO - Python backend loaded
+2024-07-13 20:46:09,549 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:46:09,555 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:46:09,561 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:46:09,561 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:46:10,887 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:46:11,308 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:46:11,340 - INFO - Model built successfully.
+2024-07-13 20:46:18,008 - INFO - Model evaluated successfully.
+2024-07-13 20:46:18,018 - INFO - Model Summary successfully.
+2024-07-13 20:46:18,163 - INFO - Prediction made successfully.
+2024-07-13 20:47:00,428 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:47:00,436 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:47:00,436 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:47:00,436 - INFO - Python backend loaded
+2024-07-13 20:47:01,063 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:47:01,069 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:47:01,076 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:47:01,076 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:47:02,384 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:47:02,811 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:47:02,845 - INFO - Model built successfully.
+2024-07-13 20:47:08,480 - INFO - Model evaluated successfully.
+2024-07-13 20:47:08,490 - INFO - Model Summary successfully.
+2024-07-13 20:47:08,626 - INFO - Prediction made successfully.
+2024-07-13 20:48:05,416 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:48:05,425 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:48:05,426 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:48:05,427 - INFO - Python backend loaded
+2024-07-13 20:48:06,160 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:48:06,168 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:48:06,176 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:48:06,176 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:48:07,933 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:48:08,407 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:48:08,462 - INFO - Model built successfully.
+2024-07-13 20:48:15,964 - INFO - Model evaluated successfully.
+2024-07-13 20:48:15,976 - INFO - Model Summary successfully.
+2024-07-13 20:48:16,179 - INFO - Prediction made successfully.
+2024-07-13 20:50:49,195 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:50:49,208 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:50:49,208 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:50:49,209 - INFO - Python backend loaded
+2024-07-13 20:50:50,042 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:50:50,052 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:50:50,062 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:50:50,062 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:50:51,642 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:50:52,094 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:50:52,141 - INFO - Model built successfully.
+2024-07-13 20:50:58,086 - ERROR - Error plotting loss history: No training history found. Train the model first.
+2024-07-13 20:56:22,902 - INFO - Pandas backend loaded 2.2.2
+2024-07-13 20:56:22,911 - INFO - Numpy backend loaded 1.26.4
+2024-07-13 20:56:22,911 - INFO - Pyspark backend NOT loaded
+2024-07-13 20:56:22,912 - INFO - Python backend loaded
+2024-07-13 20:56:23,644 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:56:23,652 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-13 20:56:23,658 - INFO - Successfully performed the pre-processing step!
+2024-07-13 20:56:23,658 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-13 20:56:23,763 - INFO - Model built successfully.
+2024-07-13 20:56:27,989 - INFO - Model trained successfully.
+2024-07-13 20:56:30,471 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-13 20:56:32,123 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-13 20:56:32,580 - INFO - Hyperparameter tuning completed successfully.
+2024-07-13 20:56:32,628 - INFO - Model built successfully.
+2024-07-13 20:56:39,031 - INFO - Model evaluated successfully.
+2024-07-13 20:56:39,042 - INFO - Model Summary successfully.
+2024-07-13 20:56:39,212 - INFO - Prediction made successfully.
