@@ -158,3 +158,149 @@
 2024-07-13 20:56:23,658 - INFO - Successfully performed the pre-processing step!
 2024-07-13 20:56:23,658 - INFO - Successfully splitted the dataset to train-test set!
 2024-07-13 20:56:23,658 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 22:59:37,962 - INFO - Successfully performed the pre-processing step!
+2024-07-14 22:59:37,962 - INFO - Successfully performed the pre-processing step!
+2024-07-14 22:59:37,996 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 22:59:37,996 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 23:04:59,043 - INFO - Successfully retrieved features name!
+2024-07-14 23:04:59,043 - INFO - Successfully retrieved features name!
+2024-07-14 23:04:59,043 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:04:59,043 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:04:59,046 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:04:59,046 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:05:21,965 - INFO - Successfully retrieved features name!
+2024-07-14 23:05:21,965 - INFO - Successfully retrieved features name!
+2024-07-14 23:05:21,966 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:05:21,966 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:05:21,969 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:05:21,969 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:05:21,969 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:05:21,969 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:23,546 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:23,546 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:55,901 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:55,901 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:08:42,279 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:08:42,279 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:08:42,287 - INFO - Successfully retrieved features name!
+2024-07-14 23:08:42,287 - INFO - Successfully retrieved features name!
+2024-07-14 23:08:42,287 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:08:42,287 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:05,001 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:05,001 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:05,009 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:05,009 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:05,009 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:05,009 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:05,011 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:09:05,011 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:09:38,929 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:38,929 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:38,937 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:38,937 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:38,937 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:38,937 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:38,940 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:09:38,940 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:10:30,213 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:10:30,213 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:10:30,222 - INFO - Successfully retrieved features name!
+2024-07-14 23:10:30,222 - INFO - Successfully retrieved features name!
+2024-07-14 23:10:30,222 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:10:30,222 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:10:30,225 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:10:30,225 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:11:09,271 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:11:09,271 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:11:09,278 - INFO - Successfully retrieved features name!
+2024-07-14 23:11:09,278 - INFO - Successfully retrieved features name!
+2024-07-14 23:11:09,278 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:11:09,278 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:11:09,281 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:11:09,281 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:35,612 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:13:35,612 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:13:35,624 - INFO - Successfully retrieved features name!
+2024-07-14 23:13:35,624 - INFO - Successfully retrieved features name!
+2024-07-14 23:13:35,624 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:13:35,624 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:13:35,628 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:35,628 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:50,068 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:50,068 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:07,510 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:07,510 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:07,517 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:07,517 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:07,517 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:07,517 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:07,520 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:07,520 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:23,282 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:23,282 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:45,583 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:45,583 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:45,589 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:45,589 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:45,589 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:45,589 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:45,592 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:45,592 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:03,952 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:03,952 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:43,083 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:18:43,083 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:18:43,091 - INFO - Successfully retrieved features name!
+2024-07-14 23:18:43,091 - INFO - Successfully retrieved features name!
+2024-07-14 23:18:43,091 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:18:43,091 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:18:43,093 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:43,093 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:02,371 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:02,371 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:26,167 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:19:26,167 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:19:26,173 - INFO - Successfully retrieved features name!
+2024-07-14 23:19:26,173 - INFO - Successfully retrieved features name!
+2024-07-14 23:19:26,173 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:19:26,173 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:19:26,175 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:26,175 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:43,733 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:43,733 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:20:20,168 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:20:20,168 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:20:20,182 - INFO - Successfully retrieved features name!
+2024-07-14 23:20:20,182 - INFO - Successfully retrieved features name!
+2024-07-14 23:20:20,182 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:20:20,182 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:20:20,186 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:20:20,186 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:21:35,620 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:21:35,620 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:31:58,822 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:31:58,822 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:31:58,829 - INFO - Successfully retrieved features name!
+2024-07-14 23:31:58,829 - INFO - Successfully retrieved features name!
+2024-07-14 23:31:58,829 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:31:58,829 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:31:58,832 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:31:58,832 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,386 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,386 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,387 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,387 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,391 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,391 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,423 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 23:34:03,423 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 23:34:03,425 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:34:03,425 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:34:03,431 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,431 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,432 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,432 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,435 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,435 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:40,906 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:40,906 - INFO - Successfully transformed the dataset using the pre-processing pipeline

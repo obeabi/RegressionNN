@@ -463,3 +463,235 @@ List of objects that could not be loaded:
 2024-07-13 20:56:39,031 - INFO - Model evaluated successfully.
 2024-07-13 20:56:39,042 - INFO - Model Summary successfully.
 2024-07-13 20:56:39,212 - INFO - Prediction made successfully.
+2024-07-14 22:59:36,347 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 22:59:36,371 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 22:59:36,372 - INFO - Pyspark backend NOT loaded
+2024-07-14 22:59:36,372 - INFO - Python backend loaded
+2024-07-14 22:59:37,962 - INFO - Successfully performed the pre-processing step!
+2024-07-14 22:59:37,996 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 23:02:51,657 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:02:51,666 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:02:51,666 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:02:51,667 - INFO - Python backend loaded
+2024-07-14 23:03:07,329 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:03:07,340 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:03:07,341 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:03:07,341 - INFO - Python backend loaded
+2024-07-14 23:04:58,318 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:04:58,330 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:04:58,331 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:04:58,331 - INFO - Python backend loaded
+2024-07-14 23:04:59,043 - INFO - Successfully retrieved features name!
+2024-07-14 23:04:59,043 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:04:59,046 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:05:21,194 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:05:21,206 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:05:21,207 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:05:21,207 - INFO - Python backend loaded
+2024-07-14 23:05:21,965 - INFO - Successfully retrieved features name!
+2024-07-14 23:05:21,966 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:05:21,969 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:05:21,969 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:22,833 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:07:22,842 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:07:22,842 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:07:22,842 - INFO - Python backend loaded
+2024-07-14 23:07:23,546 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:07:55,212 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:07:55,220 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:07:55,221 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:07:55,221 - INFO - Python backend loaded
+2024-07-14 23:07:55,901 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:08:41,534 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:08:41,542 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:08:41,543 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:08:41,543 - INFO - Python backend loaded
+2024-07-14 23:08:42,279 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:08:42,287 - INFO - Successfully retrieved features name!
+2024-07-14 23:08:42,287 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:04,291 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:09:04,300 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:09:04,301 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:09:04,301 - INFO - Python backend loaded
+2024-07-14 23:09:05,001 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:05,009 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:05,009 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:05,011 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:09:38,227 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:09:38,236 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:09:38,238 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:09:38,238 - INFO - Python backend loaded
+2024-07-14 23:09:38,929 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:09:38,937 - INFO - Successfully retrieved features name!
+2024-07-14 23:09:38,937 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:09:38,940 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:10:29,507 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:10:29,516 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:10:29,517 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:10:29,517 - INFO - Python backend loaded
+2024-07-14 23:10:30,213 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:10:30,222 - INFO - Successfully retrieved features name!
+2024-07-14 23:10:30,222 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:10:30,225 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:10:30,483 - INFO - Model built successfully.
+2024-07-14 23:10:35,004 - INFO - Model trained successfully.
+2024-07-14 23:10:39,411 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:11:08,544 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:11:08,553 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:11:08,554 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:11:08,554 - INFO - Python backend loaded
+2024-07-14 23:11:09,271 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:11:09,278 - INFO - Successfully retrieved features name!
+2024-07-14 23:11:09,278 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:11:09,281 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:11:09,383 - INFO - Model built successfully.
+2024-07-14 23:11:13,828 - INFO - Model trained successfully.
+2024-07-14 23:11:15,476 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:11:17,261 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:11:17,792 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:13:34,782 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:13:34,793 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:13:34,793 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:13:34,794 - INFO - Python backend loaded
+2024-07-14 23:13:35,612 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:13:35,624 - INFO - Successfully retrieved features name!
+2024-07-14 23:13:35,624 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:13:35,628 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:35,746 - INFO - Model built successfully.
+2024-07-14 23:13:40,392 - INFO - Model trained successfully.
+2024-07-14 23:13:41,766 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:13:43,390 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:13:43,822 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:13:43,867 - INFO - Model built successfully.
+2024-07-14 23:13:50,068 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:13:50,251 - INFO - Model evaluated successfully.
+2024-07-14 23:13:50,277 - INFO - Model Summary successfully.
+2024-07-14 23:13:50,519 - INFO - Prediction made successfully.
+2024-07-14 23:17:06,780 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:17:06,788 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:17:06,789 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:17:06,789 - INFO - Python backend loaded
+2024-07-14 23:17:07,510 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:07,517 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:07,517 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:07,520 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:07,594 - INFO - Model built successfully.
+2024-07-14 23:17:14,377 - INFO - Model trained successfully.
+2024-07-14 23:17:15,747 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:17:17,449 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:17:17,872 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:17:17,898 - INFO - Model built successfully.
+2024-07-14 23:17:23,282 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:23,438 - INFO - Model evaluated successfully.
+2024-07-14 23:17:23,449 - INFO - Model Summary successfully.
+2024-07-14 23:17:23,577 - INFO - Prediction made successfully.
+2024-07-14 23:17:44,888 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:17:44,897 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:17:44,898 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:17:44,898 - INFO - Python backend loaded
+2024-07-14 23:17:45,583 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:17:45,589 - INFO - Successfully retrieved features name!
+2024-07-14 23:17:45,589 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:17:45,592 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:17:45,674 - INFO - Model built successfully.
+2024-07-14 23:17:52,899 - INFO - Model trained successfully.
+2024-07-14 23:17:54,469 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:17:56,791 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:17:57,249 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:17:57,285 - INFO - Model built successfully.
+2024-07-14 23:18:03,952 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:04,117 - INFO - Model evaluated successfully.
+2024-07-14 23:18:04,127 - INFO - Model Summary successfully.
+2024-07-14 23:18:04,281 - INFO - Prediction made successfully.
+2024-07-14 23:18:42,348 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:18:42,357 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:18:42,358 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:18:42,358 - INFO - Python backend loaded
+2024-07-14 23:18:43,083 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:18:43,091 - INFO - Successfully retrieved features name!
+2024-07-14 23:18:43,091 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:18:43,093 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:18:43,211 - INFO - Model built successfully.
+2024-07-14 23:18:51,593 - INFO - Model trained successfully.
+2024-07-14 23:18:52,992 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:18:54,749 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:18:55,199 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:18:55,265 - INFO - Model built successfully.
+2024-07-14 23:19:02,371 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:02,582 - INFO - Model evaluated successfully.
+2024-07-14 23:19:02,610 - INFO - Model Summary successfully.
+2024-07-14 23:19:02,845 - INFO - Prediction made successfully.
+2024-07-14 23:19:25,457 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:19:25,466 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:19:25,467 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:19:25,467 - INFO - Python backend loaded
+2024-07-14 23:19:26,167 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:19:26,173 - INFO - Successfully retrieved features name!
+2024-07-14 23:19:26,173 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:19:26,175 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:26,272 - INFO - Model built successfully.
+2024-07-14 23:19:33,723 - INFO - Model trained successfully.
+2024-07-14 23:19:35,106 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:19:36,953 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:19:37,392 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:19:37,437 - INFO - Model built successfully.
+2024-07-14 23:19:43,733 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:19:43,918 - INFO - Model evaluated successfully.
+2024-07-14 23:19:43,929 - INFO - Model Summary successfully.
+2024-07-14 23:19:44,110 - INFO - Prediction made successfully.
+2024-07-14 23:20:18,445 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:20:18,463 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:20:18,465 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:20:18,465 - INFO - Python backend loaded
+2024-07-14 23:20:20,168 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:20:20,182 - INFO - Successfully retrieved features name!
+2024-07-14 23:20:20,182 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:20:20,186 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:20:20,378 - INFO - Model built successfully.
+2024-07-14 23:21:02,757 - INFO - Model trained successfully.
+2024-07-14 23:21:06,943 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:21:12,409 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:21:13,699 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:21:13,911 - INFO - Model built successfully.
+2024-07-14 23:21:35,620 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:21:35,993 - INFO - Model evaluated successfully.
+2024-07-14 23:21:36,027 - INFO - Model Summary successfully.
+2024-07-14 23:21:36,468 - INFO - Prediction made successfully.
+2024-07-14 23:31:57,784 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:31:57,801 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:31:57,802 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:31:57,802 - INFO - Python backend loaded
+2024-07-14 23:31:58,822 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:31:58,829 - INFO - Successfully retrieved features name!
+2024-07-14 23:31:58,829 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:31:58,832 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:02,560 - INFO - Pandas backend loaded 2.2.2
+2024-07-14 23:34:02,571 - INFO - Numpy backend loaded 1.26.4
+2024-07-14 23:34:02,572 - INFO - Pyspark backend NOT loaded
+2024-07-14 23:34:02,572 - INFO - Python backend loaded
+2024-07-14 23:34:03,386 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,387 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,391 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,423 - INFO - Successfully performed the multi-collinearity check step!
+2024-07-14 23:34:03,425 - INFO - Successfully splitted the dataset to train-test set!
+2024-07-14 23:34:03,431 - INFO - Successfully retrieved features name!
+2024-07-14 23:34:03,432 - INFO - Successfully fitted the pre-processing pipeline!
+2024-07-14 23:34:03,435 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:03,546 - INFO - Model built successfully.
+2024-07-14 23:34:25,932 - INFO - Model trained successfully.
+2024-07-14 23:34:28,080 - INFO - Loss history plot saved successfully as loss_history.png.
+2024-07-14 23:34:30,407 - WARNING - From C:\Users\obemb\anaconda3\envs\RegressionNN\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-14 23:34:30,880 - INFO - Hyperparameter tuning completed successfully.
+2024-07-14 23:34:31,000 - INFO - Model built successfully.
+2024-07-14 23:34:40,906 - INFO - Successfully transformed the dataset using the pre-processing pipeline
+2024-07-14 23:34:41,196 - INFO - Model evaluated successfully.
+2024-07-14 23:34:41,215 - INFO - Model Summary successfully.
+2024-07-14 23:34:41,586 - INFO - Prediction made successfully.

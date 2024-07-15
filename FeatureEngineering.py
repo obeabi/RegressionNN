@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder, LabelEncoder, MinMaxScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder, LabelEncoder, MinMaxScaler, FunctionTransformer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
@@ -23,6 +23,123 @@ class clean:
         self.scaler = StandardScaler()
         self.max_scaler = MinMaxScaler()
         self.le_encoder = LabelEncoder()
+        self.numerical_cols = None
+        self.categorical_cols = None
+        self.column_transformer = None
+        self.fit_status = False
+        self.preprocessing_pipeline = None
+        self.fit_status = False
+        self.feature_names_out = None  # Store feature names after transformation
+
+    def preprocessor_fit(self, X, one_hot_encode_cols=None, label_encode_cols=None):
+        """
+        Fit the preprocessor on the data.
+
+        Args:
+            X (pd.DataFrame): Input data containing both numerical and categorical columns.
+            one_hot_encode_cols (list): List of categorical columns to one-hot encode.
+            label_encode_cols (list): List of categorical columns to label encode.
+        """
+        try:
+            self.numerical_cols = X.select_dtypes(include=['number']).columns.tolist()
+            self.categorical_cols = X.select_dtypes(include=['object', 'category']).columns.tolist()
+
+            transformers = []
+
+            if self.numerical_cols:
+                num_pipeline = Pipeline([
+                    ('num_imputer', SimpleImputer(strategy='mean')),
+                    ('scaler', StandardScaler())
+                ])
+                transformers.append(('num', num_pipeline, self.numerical_cols))
+
+            if self.categorical_cols:
+                if one_hot_encode_cols:
+                    cat_pipeline = Pipeline([
+                        ('cat_imputer', SimpleImputer(strategy='most_frequent')),
+                        ('onehot', OneHotEncoder(handle_unknown='ignore'))
+                    ])
+                    transformers.append(('cat_onehot', cat_pipeline, one_hot_encode_cols))
+
+                if label_encode_cols:
+                    for col in label_encode_cols:
+                        transformers.append((f'{col}_label', FunctionTransformer(self.label_encode), [col]))
+
+            self.preprocessing_pipeline = ColumnTransformer(transformers, remainder='passthrough')
+            self.preprocessing_pipeline.fit(X)
+            self.fit_status = True
+            self.feature_names_out = self.get_feature_names_out()
+            logs.log("Successfully fitted the pre-processing pipeline!")
+        except Exception as e:
+            logs.log(f"Error during fit: {str(e)}")
+
+    def preprocessor_transform(self, X):
+        """
+        Transform the input data using the fitted preprocessor.
+
+        Args:
+            X (pd.DataFrame): Input data to transform.
+
+        Returns:
+            pd.DataFrame: Transformed data with original column names.
+        """
+        try:
+            if not self.fit_status:
+                raise ValueError("Preprocessor must be fit on data before transforming.")
+            transformed_data = self.preprocessing_pipeline.transform(X)
+            transformed_df = pd.DataFrame(transformed_data, columns=self.feature_names_out)
+            logs.log("Successfully transformed the dataset using the pre-processing pipeline")
+            return transformed_df
+        except Exception as e:
+            logs.log(f"Error during transform: {str(e)}")
+
+    def get_feature_names_out(self):
+        """
+        Get feature names after transformation.
+
+        Returns:
+            list: List of feature names after transformation.
+        """
+        try:
+            if self.preprocessing_pipeline is None:
+                return []
+
+            feature_names_out = []
+            for name, trans, column_names in self.preprocessing_pipeline.transformers_:
+                if trans == 'drop' or trans == 'passthrough':
+                    continue
+                if isinstance(trans, Pipeline):
+                    if name.startswith('cat_onehot') and hasattr(trans.named_steps['onehot'], 'get_feature_names_out'):
+                        feature_names_out.extend(trans.named_steps['onehot'].get_feature_names_out())
+                    else:
+                        feature_names_out.extend(column_names)
+                elif isinstance(trans, FunctionTransformer):
+                    feature_names_out.extend(column_names)
+                else:
+                    feature_names_out.extend(column_names)
+            logs.log("Successfully retrieved features name!")
+            return feature_names_out
+
+        except Exception as e:
+            logs.log(f"Error during get_feature_names_out: {str(e)}")
+
+    def label_encode(self, X):
+        """
+        Apply label encoding to the input data.
+
+        Args:
+            X (pd.Series or pd.DataFrame): Input data to encode.
+
+        Returns:
+            np.ndarray: Label encoded data reshaped to 2D.
+        """
+        try:
+            le = LabelEncoder()
+            logs.log("Successfully performed label encoding!")
+            return le.fit_transform(X.squeeze()).reshape(-1, 1)
+        except Exception as e:
+            raise ValueError(f"Something went wrong while performing label encoding: {e}")
+            logs.log("Something went wrong while finding the numeric and categorical columns", level='ERROR')
 
     def find_numericategory_columns (self, X):
         """
@@ -74,51 +191,6 @@ class clean:
             raise ValueError(f"Error in encoding features: {e}")
             logs.log("Something went wrong while encoding features", level='ERROR')
 
-    def pre_process(self, X):
-        """
-        Create data pre-processing pipeline
-        :param X:
-        :return:
-        """
-        try:
-            numeric_features, categorical_features = self.find_numericategory_columns(X)
-            if (len(numeric_features) > 0) and (len(categorical_features) > 0):
-                numeric_transformer = Pipeline(steps=[
-                    ('imputer', SimpleImputer(strategy='median')),
-                    ('scaler', StandardScaler())])
-                categorical_transformer = Pipeline(steps=[
-                    ('imputer', SimpleImputer(strategy='constant', fill_value='missing')),
-                    ('encoder', OneHotEncoder(handle_unknown='ignore'))
-                    #('encoder', LabelEncoder())
-                    ])
-                self.preprocessor = ColumnTransformer(
-                        transformers=[('num', numeric_transformer, numeric_features),
-                                      ('cat', categorical_transformer, categorical_features)])
-
-            elif (len(numeric_features) > 0) and (len(categorical_features) == 0):
-                numeric_transformer = Pipeline(steps=[
-                     ('imputer', SimpleImputer(strategy='median')),
-                     ('scaler', StandardScaler())])
-                self.preprocessor = ColumnTransformer(
-                        transformers=[('num', numeric_transformer, numeric_features)])
-
-            elif (len(numeric_features) == 0 ) and (len(categorical_features) > 0):
-                categorical_transformer = Pipeline(steps=[
-                    ('imputer', SimpleImputer(strategy='constant', fill_value='missing')),
-                    ('encoder', OneHotEncoder(handle_unknown='ignore'))
-                   # ('encoder', LabelEncoder())
-                ])
-                self.preprocessor = ColumnTransformer(
-                        transformers=[('cat', categorical_transformer, categorical_features)])
-
-            x_preprocessed = self.preprocessor.fit_transform(X)
-            logs.log("Successfully performed the pre-processing step!")
-            return x_preprocessed
-
-        except Exception as e:
-            raise ValueError(f"Error in preprocessing data: {e}")
-            logs.log("Something went wrong while pre-processing the dataset", level='ERROR')
-
     def split_train_test(self, X, y, test_size=0.2):
         """
         Split dataset into tain and test split using test size of 20%
@@ -136,29 +208,30 @@ class clean:
 
     def vif_multicollinearity(self, X, threshold=10.0):
         """
-        Checks for multi-collinearity between features doesn't work well
-        :param X:
+        Checks for multi-collinearity between features
+        :param X
         :param threshold:
         :return: non-collinear features
         """
         try:
-            numeric_features, _ = self.find_numericategory_columns(X)
-            x_num = self.pre_process(X[numeric_features])
+            numeric_features, categorical_features = self.find_numericategory_columns(X)  # X should be normalized
+            self.preprocessor_fit(X, one_hot_encode_cols=categorical_features, label_encode_cols=None)
+            x = self.preprocessor_transform(X[numeric_features])
             vif_data = pd.DataFrame()
-            vif_data["feature"] = X[numeric_features].columns
-            vif_data["VIF"] = [variance_inflation_factor(x_num, i) for i in range(X[numeric_features].shape[1])]
+            vif_data["feature"] = x.columns
+            vif_data["VIF"] = [variance_inflation_factor(x, i) for i in range(x.shape[1])]
 
             # Drop columns with VIF above the threshold
             high_vif_features = vif_data[vif_data["VIF"] > threshold]["feature"].tolist()
-            x_dropped = X.drop(columns=high_vif_features)
+            x_dropped = x.drop(columns=high_vif_features)
             logs.log("Successfully performed the multi-collinearity check step!")
 
-            return x_dropped.columns, high_vif_features, vif_data
+            return x_dropped.columns, high_vif_features
         except Exception as e:
             raise ValueError(f"Error in checking multi-collinearity: {e}")
             logs.log("Something went wrong while checking multi-collinearity:", level='ERROR')
 
-    def correlation_multicollinearity(self, X, threshold=0.8):
+    def correlation_multicollinearity(self, X, threshold=0.9):
         """
         Checks for multi-collinearity between features using pearson correlation
         :param X:
@@ -177,8 +250,6 @@ class clean:
         except Exception as e:
             raise ValueError(f"Error in checking multi-collinearity: {e}")
             logs.log("Something went wrong while checking multi-collinearity:", level='ERROR')
-
-
 
     def __str__(self):
         return "This is my custom feature engineering class object"
